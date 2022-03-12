@@ -104,7 +104,7 @@ def train_vanilla(epoch, train_loader, model, criterion, criterion_soft, optimiz
 
 
 
-def train_ol(epoch, train_loader, model, criterion_list, optimizer, opt, train_soft, train_index):
+def train_fer(epoch, train_loader, model, criterion_list, optimizer, opt, train_soft, train_index):
     
     # set modules as train()
     model.train()
