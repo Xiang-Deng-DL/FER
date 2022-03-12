@@ -21,7 +21,7 @@ torchvision 0.5.0
 ## Training
 To train different networks with FER, run the following command:
 
-`run train_scripts.sh`
+`sh train.sh`
 
 
 ## Citation
