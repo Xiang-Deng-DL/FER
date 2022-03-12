@@ -13,7 +13,7 @@ from models import model_dict
 from dataset.cifar100 import get_cifar100_dataloaders
 
 from helper.util import adjust_learning_rate, set_seed
-from helper.loops import train_vanilla as train1, train_ol as train2, validate
+from helper.loops import train_vanilla as train1, train_fer as train2, validate
 
 from distiller_zoo import Softmax_T, KL
 
